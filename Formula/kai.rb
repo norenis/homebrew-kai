@@ -2,27 +2,27 @@ class Kai < Formula
   desc "Your digital twin — powered by knowledge, not prompts"
   homepage "https://github.com/norenis/kai"
   license "MIT"
-  version "1.0.1"
+  version "1.0.2"
 
   on_macos do
     on_arm do
       url "https://github.com/norenis/kai/releases/download/v#{version}/kai-darwin-arm64.tar.gz"
-      sha256 "75d242aa7d18e0b60c5820bcbbd24b0d00fbe41723aabd05c9df101a43b3459f"
+      sha256 "09ad6e284e1f169002e756207a292849f2424c382026c76bded90bbde02c9b16"
     end
     on_intel do
       url "https://github.com/norenis/kai/releases/download/v#{version}/kai-darwin-amd64.tar.gz"
-      sha256 "88fc46408ec1dfaa4de13d6cb697328e56c76b95cdbb6870b81ddd52a1ed2ce4"
+      sha256 "e49aff48a9843e321e59af717ed27e1147ccab8df9372b01c7593ff6759d592a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/norenis/kai/releases/download/v#{version}/kai-linux-amd64.tar.gz"
-      sha256 "e72ba6c5882af4718b1ee7f4ad57973f2e4fc74a45e94d97294d37d3a5fabc4c"
+      sha256 "89ae0d4315479014bd45613526caf7ad77786eeb52d73989bc8f309400fcc27f"
     end
     on_arm do
       url "https://github.com/norenis/kai/releases/download/v#{version}/kai-linux-arm64.tar.gz"
-      sha256 "5ec427756f2def5c63a07326a458ce736cfb132c8d6e37ed6fc4137c5e5ecd9b"
+      sha256 "d420d1bc4b45cecfba7ea0ddaaf162f71f0549497b098de92a1f806ccc9426ac"
     end
   end
 
